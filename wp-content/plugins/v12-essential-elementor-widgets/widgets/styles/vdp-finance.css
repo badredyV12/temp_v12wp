@@ -1,0 +1,178 @@
+.calc-title{
+  color: #000 !important;
+  margin-bottom:40px !important;
+}
+
+#loan_calculat {
+  max-width: 100%;
+  width: 100%;
+}
+.overlayVdpF {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+
+.popupVdpF {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px 40px 40px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.close-btn-popup {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+.calculate_result_block{
+    border-radius: 10px;
+border: 1px solid #BCBCBC;
+padding-top: 30px;
+}
+.calculate_result_block .group{
+  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.calculate_result_title{
+    color: #808080;
+text-align: center;
+font-family: Roboto;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.based-note{
+    color: #B6B6B6;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.based-note a{
+    color: #1EB0FC;
+}
+.based-note span{
+    color: #1EB0FC;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+.block-approve {
+    text-align: center
+}
+.block-approve .get-pre-approved{
+    border: 1px solid #1EB0FC;
+    padding-right: 30px;
+     padding-left: 30px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    .popupVdpF{
+        width: 30%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .popupVdpF{
+        width: 30%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+   
+        .popupVdpF{
+            width: 90%;
+        }
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .popupVdpF{
+        width: 90%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .popupVdpF{
+        width: 90%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .popupVdpF{
+        width: 90%;
+    }
+    
+  }
+

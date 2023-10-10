@@ -1,0 +1,19 @@
+{
+    "name": "admin/public",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Public\\": "src/"        
+        }
+    },
+    "authors": [
+        {
+            "name": "Yassine REMMANI",
+            "email": "remmani@v12software.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "^2.2",
+        "vlucas/phpdotenv": "^5.5",
+        "deliciousbrains/wp-background-processing": "^1.1"
+    }
+}

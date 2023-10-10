@@ -1,0 +1,75 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* body {background-color: rgb(38, 175, 118);} */
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 40px 0 20px;
+}
+
+.container {
+    width: 750px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    height: 450px;
+    animation: fade 1.5s;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 42.6%;
+    width: auto;
+    padding: 8px 16px;
+    margin-top: -40px;
+    background-color: #6d12ff;
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.gallery {display: flex;width: 100%;}
+
+.demo {
+    width: 25%;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.active, .demo:hover {
+    
+    opacity: 1;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

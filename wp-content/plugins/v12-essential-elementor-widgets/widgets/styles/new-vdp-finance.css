@@ -1,0 +1,230 @@
+.calc-page-container .group .form-input+label {
+    border: 0 !important;
+    color: #a0a0a0!important;
+    position: absolute;
+    font-size: 0.9rem!important;
+    top: 33%;
+    transform: translateY(-50%);
+    background-color: transparent ;
+    padding: 0 0.3rem;
+    margin: 0 0.5rem;
+    transition: .1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+    font-weight: 400!important;
+    z-index: 9; 
+  }
+
+  .calc-page-container .group .form-input:not(:placeholder-shown)+label {
+    top: 0px !important;
+    transform: translateY(-50%) scale(.9)!important;
+    background-color: #fff;
+    border-radius: 5px;
+    
+  }
+  
+  .calc-page-container .group .form-input:focus+label {
+    top: 0;
+    transform: translateY(-50%) scale(.9)!important;
+    background-color: #fff;
+    border-radius: 5px;
+    
+  }
+
+.calculator-container{
+    display: flex;
+    border: solid 2px #f4f4f4;
+
+}
+
+.left-column-finance{
+    width: 66%;
+    background-color: #F4f4f4;
+    padding: 25px;
+}
+
+.right-column-finance{
+    width: 34%;
+    padding: 15px;
+}
+.left-column-finance .card-list {
+    margin: 0.75rem 0px 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+.left-column-finance .card-list .card-estimates-credit, .left-column-finance .card-list .card-term-month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    min-width: 54px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+    border-radius: 4px;
+    flex: 1 1 0%;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* .left-column-finance .card-list .card-estimates-credit.selected, .left-column-finance .card-list .card-term-month.selected  {
+    border-color: #6C12FF;
+} */
+
+.left-column-finance .block-range{
+    margin-bottom: 30px;
+}
+
+.left-column-finance .block-range .group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0px;
+}
+
+.left-column-finance .block-range .group .estimates-monthly-payment-value,.left-column-finance .block-range .group .down-payment-value,.left-column-finance .block-range .group .trade-in-value{
+    width: 100px;
+}
+
+.left-column-finance .block-range .group .estimates-monthly-payment-text,.left-column-finance .block-range .group .down-payment-text, .left-column-finance .block-range .group .trade-in-text{
+    color: #141414;
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.left-column-finance .block-range .range .estimates-monthly-payment-range,.left-column-finance .block-range .range .down-payment-range, .left-column-finance .block-range .range .trade-in-range{
+    width: 100%;
+    margin-top: 18px;
+}
+
+.left-column-finance input[type="range"] {
+    accent-color: #6C12FF;
+}
+
+.right-column-finance .price-estimate-top .calc-monthly-payment {
+    font-weight: 400;
+    font-size: 46px;
+    color: #000;
+}
+
+.right-column-finance .price-estimate-top .price-estimate-prefix {
+    font-weight: 400;
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 13px;
+}
+
+.right-column-finance .price-estimate-top .price-estimate-suffix {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin-top: 25px;
+}
+
+
+.right-column-finance .price-estimate-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-column-finance .price-estimate-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-column-finance .price-estimate-bottom span {
+    /* margin: 0 5px; */
+    font-weight: 400;
+}
+
+.right-column-finance .block-btn-credit-app svg{
+    width: 1.2em;
+    height: auto;
+    fill: #fff;
+    margin-right: 2px;
+}
+
+.right-column-finance .block-btn-credit-app a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px 5px;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.right-column-finance .block-btn-credit-app {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* .left-column-finance .input-block-price{
+    margin: 10px 0;
+} */
+
+/* .left-column-finance .input-block-price label {
+    color: #141414;
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+   
+} */
+
+@media only screen and (max-width: 500px) {
+    /* .left-column-finance .card-list {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px;
+        width: 100%;
+    } */
+
+    .left-column-finance .card-list .card-estimates-credit:nth-child(1) {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .left-column-finance .card-list .card-estimates-credit:nth-child(2) {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .left-column-finance .card-list .card-estimates-credit:nth-child(3) {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    .left-column-finance .card-list .card-estimates-credit:nth-child(4) {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .calculator-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-column-finance,.right-column-finance{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,354 @@
+
+---Downloaded files---
+The import files for: Houzez01 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = https://100110.v12wp.com
+Data file = /home/u970355395/domains/v12wp.com/public_html/100110/wp-content/uploads/2023/09/demo-content-import-file_2023-09-16__15-32-55.xml
+Widget file = /home/u970355395/domains/v12wp.com/public_html/100110/wp-content/uploads/2023/09/demo-widgets-import-file_2023-09-16__15-32-55.json
+Customizer file = not defined!
+Redux files:
+houzez_options -> /home/u970355395/domains/v12wp.com/public_html/100110/wp-content/uploads/2023/09/demo-redux-import-file_0-2023-09-16__15-32-55.json 
+
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+[WARNING] Failed to import property_area Albany Park
+[WARNING] Failed to import property_area Altgeld Gardens
+[WARNING] Failed to import property_area Andersonville
+[WARNING] Failed to import property_area Beverly
+[WARNING] Failed to import property_area Brickel
+[WARNING] Failed to import property_area Brooklyn
+[WARNING] Failed to import property_area Brookside
+[WARNING] Failed to import property_state California
+[WARNING] Failed to import property_area Central City
+[WARNING] Failed to import property_city Chicago
+[WARNING] Failed to import property_area Coconut Grove
+[WARNING] Failed to import property_state Florida
+[WARNING] Failed to import property_area Hyde Park
+[WARNING] Failed to import property_state Illinois
+[WARNING] Failed to import property_city Los Angeles
+[WARNING] Failed to import property_area Manhattan
+[WARNING] Failed to import property_city Miami
+[WARNING] Failed to import property_area Midtown
+[WARNING] Failed to import property_state New York
+[WARNING] Failed to import property_city New York
+[WARNING] Failed to import property_area Northeast Los Angeles
+[WARNING] Failed to import property_country United States
+[WARNING] Failed to import property_area West Flagger
+[WARNING] Failed to import property_area Wynwood
+
+
+------
+New AJAX call!
+[WARNING] Failed to import property_area Albany Park
+[WARNING] Failed to import property_area Altgeld Gardens
+[WARNING] Failed to import property_area Andersonville
+[WARNING] Failed to import property_area Beverly
+[WARNING] Failed to import property_area Brickel
+[WARNING] Failed to import property_area Brooklyn
+[WARNING] Failed to import property_area Brookside
+[WARNING] Failed to import property_state California
+[WARNING] Failed to import property_area Central City
+[WARNING] Failed to import property_city Chicago
+[WARNING] Failed to import property_area Coconut Grove
+[WARNING] Failed to import property_state Florida
+[WARNING] Failed to import property_area Hyde Park
+[WARNING] Failed to import property_state Illinois
+[WARNING] Failed to import property_city Los Angeles
+[WARNING] Failed to import property_area Manhattan
+[WARNING] Failed to import property_city Miami
+[WARNING] Failed to import property_area Midtown
+[WARNING] Failed to import property_state New York
+[WARNING] Failed to import property_city New York
+[WARNING] Failed to import property_area Northeast Los Angeles
+[WARNING] Failed to import property_country United States
+[WARNING] Failed to import property_area West Flagger
+[WARNING] Failed to import property_area Wynwood
+
+
+------
+New AJAX call!
+[WARNING] Failed to import property_area Albany Park
+[WARNING] Failed to import property_area Altgeld Gardens
+[WARNING] Failed to import property_area Andersonville
+[WARNING] Failed to import property_area Beverly
+[WARNING] Failed to import property_area Brickel
+[WARNING] Failed to import property_area Brooklyn
+[WARNING] Failed to import property_area Brookside
+[WARNING] Failed to import property_state California
+[WARNING] Failed to import property_area Central City
+[WARNING] Failed to import property_city Chicago
+[WARNING] Failed to import property_area Coconut Grove
+[WARNING] Failed to import property_state Florida
+[WARNING] Failed to import property_area Hyde Park
+[WARNING] Failed to import property_state Illinois
+[WARNING] Failed to import property_city Los Angeles
+[WARNING] Failed to import property_area Manhattan
+[WARNING] Failed to import property_city Miami
+[WARNING] Failed to import property_area Midtown
+[WARNING] Failed to import property_state New York
+[WARNING] Failed to import property_city New York
+[WARNING] Failed to import property_area Northeast Los Angeles
+[WARNING] Failed to import property_country United States
+[WARNING] Failed to import property_area West Flagger
+[WARNING] Failed to import property_area Wynwood
+
+
+------
+New AJAX call!
+[WARNING] Failed to import property_area Albany Park
+[WARNING] Failed to import property_area Altgeld Gardens
+[WARNING] Failed to import property_area Andersonville
+[WARNING] Failed to import property_area Beverly
+[WARNING] Failed to import property_area Brickel
+[WARNING] Failed to import property_area Brooklyn
+[WARNING] Failed to import property_area Brookside
+[WARNING] Failed to import property_state California
+[WARNING] Failed to import property_area Central City
+[WARNING] Failed to import property_city Chicago
+[WARNING] Failed to import property_area Coconut Grove
+[WARNING] Failed to import property_state Florida
+[WARNING] Failed to import property_area Hyde Park
+[WARNING] Failed to import property_state Illinois
+[WARNING] Failed to import property_city Los Angeles
+[WARNING] Failed to import property_area Manhattan
+[WARNING] Failed to import property_city Miami
+[WARNING] Failed to import property_area Midtown
+[WARNING] Failed to import property_state New York
+[WARNING] Failed to import property_city New York
+[WARNING] Failed to import property_area Northeast Los Angeles
+[WARNING] Failed to import property_country United States
+[WARNING] Failed to import property_area West Flagger
+[WARNING] Failed to import property_area Wynwood
+[WARNING] Failed to import "Invoice 2764": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 2956": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 2979": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 2982": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 3070": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14524": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14533": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14536": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14548": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14560": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14563": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14567": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14570": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14578": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14581": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14592": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14593": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14596": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14601": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14610": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14615": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14622": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14627": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14634": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14637": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14652": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14659": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14664": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14670": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14674": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14681": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14689": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14700": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14704": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14715": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14728": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14778": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14781": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14786": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14795": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14801": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14807": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14814": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14823": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14849": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14852": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14854": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14867": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14870": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14871": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14878": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14883": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14888": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14899": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14909": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14921": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14926": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14932": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14936": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14946": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14952": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14962": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14967": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14970": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14973": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14977": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14980": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14986": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 14996": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15024": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15031": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15034": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15041": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15050": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15055": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15060": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15065": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15101": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15106": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15110": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15115": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15124": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15134": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15146": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15164": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15169": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15176": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15181": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15186": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15191": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15199": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15204": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15209": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15218": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15225": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15230": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15234": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15237": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15244": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15261": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15268": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15279": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15284": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15293": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15298": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15304": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15316": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15321": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15326": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15332": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15341": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15349": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15359": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15361": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15365": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15385": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15388": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15409": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15414": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15429": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15439": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15446": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15454": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15468": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15478": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15484": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15489": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15499": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15513": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15515": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15516": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15519": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15530": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15535": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15542": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15549": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15555": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15572": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15581": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15584": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15585": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15596": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15603": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15609": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15619": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15622": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15674": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15683": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15688": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15691": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15697": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15709": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15717": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15723": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15730": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15736": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15741": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15753": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15766": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15782": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15785": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15790": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15795": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15799": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15807": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15813": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 15820": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 17174": Invalid post type houzez_invoice
+[WARNING] Failed to import "Envato": Invalid post type houzez_partner
+[WARNING] Failed to import "Envato": Invalid post type houzez_partner
+[WARNING] Failed to import "Envato": Invalid post type houzez_partner
+[WARNING] Failed to import "Envato": Invalid post type houzez_partner
+[WARNING] Failed to import "Envato": Invalid post type houzez_partner
+[WARNING] Failed to import "Envato": Invalid post type houzez_partner
+[WARNING] Failed to import "Invoice 17176": Invalid post type houzez_invoice
+[WARNING] Failed to import "Invoice 17177": Invalid post type houzez_invoice
+[WARNING] Failed to import "Footer Form": Invalid post type mc4wp-form
+
+
+---Importing widgets---
+Default Sidebar : 
+
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+Property Listings : 
+
+HOUZEZ: Featured Properties - Featured Listings - Imported
+HOUZEZ: Property Taxonomies - Property Type - Imported
+HOUZEZ: Property Taxonomies - Cities - Imported
+
+Search Sidebar : 
+
+HOUZEZ: Property Taxonomies - Popular Cities - Imported
+HOUZEZ: Featured Properties - Featured - Imported
+
+Page Sidebar : 
+
+HOUZEZ: Featured Properties - Featured - Imported
+HOUZEZ: Property Taxonomies - Discover - Imported
+HOUZEZ: Latest Posts - Latest Posts - Imported
+
+Agency Sidebar : 
+
+HOUZEZ: Agency Search - Find Agency - Imported
+HOUZEZ: Featured Properties - Featured - Imported
+
+Agent Sidebar : 
+
+HOUZEZ: Agent Search - Find Agent - Imported
+HOUZEZ: Recent View Properties - Recent Viewed  - Imported
+
+Footer Area 1 : 
+
+HOUZEZ: Property Taxonomies - Discover - Imported
+
+Footer Area 2 : 
+
+HOUZEZ: Contact Us - Contact Us - Imported
+
+
+
+---Importing Redux settings---
+The Redux plugin is not activated, so the Redux import was skipped!
+
+---ocdi/after_import---
+

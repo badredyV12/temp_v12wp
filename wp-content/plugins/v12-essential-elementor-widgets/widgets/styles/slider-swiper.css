@@ -1,0 +1,451 @@
+.agent-details .agent-phone a {
+    font-family: "Roboto", Sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 23px;
+    color: #5D6872;
+    transition: color 0.3s;
+}
+.agent-information li {
+    margin: 8px 0;
+}
+.agent-details .agent-name, .agent-details .agent-address {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+    color: #5D6872;
+    transition: color 0.3s;
+}
+li.agent-phone {
+    margin: 10px 0;
+}
+.agent-information {
+    line-height: 25px;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+.elementor-element .elementor-widget-container .swiper-container  {
+    overflow: hidden;
+}
+.swiper-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.swiper-wrapper {
+    margin-bottom: 2px;
+}
+.swiper-container.slider {
+    height: 80vh;
+}
+.swiper-free-mode>.swiper-wrapper {
+    grid-gap: 2px;
+}
+.swiper-container.slider-thumbnail {
+    height: 20vh;
+}
+
+.swiper-container.slider-thumbnail .swiper-wrapper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+.swiper-container.slider-thumbnail .swiper-wrapper .swiper-slide.swiper-slide-thumb-active {
+    opacity: 1;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    display: block;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    display: block;
+    color: #ffffff;
+    font-weight: bolder;
+}
+/* .elementor-widget-slider-vdp-test-drive-widget .swiper-button-next, .elementor-widget-slider-vdp-test-drive-widget .swiper-button-prev {
+    z-index: 1 !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #0000005c !important;
+    border-radius: 100% !important;
+    background-size: 12px !important;
+} */
+
+.swiper-button-next, .swiper-button-prev {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #000000 !important;
+    border-radius: 100% !important;
+    background-size: 12px !important;
+
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    font-size: 12px !important;
+
+}
+
+.elementor-widget-loop-galleries-widget .swiper-button-next, .elementor-widget-loop-galleries-widget .swiper-button-prev {
+    z-index: 1 !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #0000005c !important;
+    border-radius: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .swiper-button-prev {
+        left: 10px;
+        right: auto;
+        top: 135px !important;
+    }
+
+    .swiper-button-next {
+        right: 10px;
+        left: auto;
+        top: 140px !important;
+    }
+
+    .swiper-container.slider {
+        height: auto !important;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .swiper-button-prev {
+        left: 10px;
+        right: auto;
+    }
+
+    .swiper-button-next {
+        right: 10px;
+        left: auto;
+    }
+
+    .swiper-container.slider {
+        height: auto !important;
+    }
+
+  }
+
+  /* CSS for desktop devices (screen width up to 768px) */
+@media (max-width: 768px) {
+
+    .fs-container,.form-ask-side {
+        display: none;
+    }
+    .ask-modal-content {
+        top: 150px;
+    }
+    .ask-modal-content .swiper-button-next {
+        right: 0 !important;
+        top: 125px !important;
+    }
+    .ask-modal-content .swiper-button-prev {
+        left: 7px !important;
+        top: 125px !important;
+    }
+    .ask-modal-content .swiper-button-next:after, .ask-modal-content .swiper-button-prev:after {
+        font-size: 20px !important;
+    }
+    .elementor-widget-slider-vdp-widget > div > div.swiper-container.slider.swiper-initialized.swiper-horizontal > div.swiper-button-next
+    {
+        top:150px !important
+    }
+    .elementor-widget-slider-vdp-widget > div > div.swiper-container.slider.swiper-initialized.swiper-horizontal > div.swiper-button-prev
+    {
+        top:150px !important
+    }
+
+
+    .test-drive-modal-content {
+        top: 150px;
+    }
+    .test-drive-modal-content .swiper-button-next {
+        right: 0 !important;
+        top: 125px !important;
+    }
+    .test-drive-modal-content .swiper-button-prev {
+        left: 7px !important;
+        top: 125px !important;
+    }
+    .test-drive-modal-content .swiper-button-next:after, .test-drive-modal-content .swiper-button-prev:after {
+        font-size: 20px !important;
+    }
+    
+  }
+.ask-modal {
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(123, 124, 124, 0.77); /* Semi-transparent background */
+    z-index: 999999999;
+}
+
+.ask-modal-content {
+    background-color: #ffffff;
+    margin: 6% auto;
+    width: 90%;
+    max-width: 1170px;
+    position: relative;
+    gap: 10px;
+    border-radius: 5px;
+}
+.ask-modal-body {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.ask-modal-header {
+    height: 50px;
+    background-color: #2d2d2d;
+    color: #fff;
+}
+.ask-modal-header img.ask-modal-logo {
+    padding: 10px;
+    width: 100px;
+}
+.ask-modal-content .swiper-button-next {
+    right:26px ;
+    top: 300px ;
+}
+.ask-modal-content .swiper-button-prev {
+    left: 27px;
+    top: 300px;
+}
+
+h4.tablinks {
+    color: #595959;
+}
+.agent-name img {
+    width: 18px;
+    margin-right: 5px;
+    margin-top: -10px;
+}
+.close-modal {
+    position: absolute;
+    top: -2px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.agent-image {
+    display: flex;
+    gap:10px;
+    width: 100px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.agent-details {
+    display: flex;
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
+
+.agent-information {
+    padding-left: 15px!important;
+    line-height: 25px;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+#ask-form [type=button]:hover, #ask-form button:hover {
+    color: #ffffff !important;
+    background-color: #1eb0fc !important;
+}
+#ask-form [type=button], #ask-form button:hover {
+    color:#1eb0fc !important;
+    border: 1px solid #1eb0fc !important;
+    background: transparent !important;
+}
+#ask-form .form-submit {
+    background: transparent;
+}
+#ask-form .group {
+    padding-bottom: 21px;
+}
+.fs-container #ask-form .form-submit {
+    width: 100%;
+}
+.elementor-widget-slider-vdp-widget > div > div.swiper-container.slider.swiper-initialized.swiper-horizontal > div.swiper-button-next
+{
+    top:300px;
+}
+.elementor-widget-slider-vdp-widget > div > div.swiper-container.slider.swiper-initialized.swiper-horizontal > div.swiper-button-prev
+{
+    top:300px; 
+}
+
+.test-drive-modal {
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(123, 124, 124, 0.77); /* Semi-transparent background */
+    z-index: 999999999;
+}
+
+.test-drive-modal-content {
+    background-color: #ffffff;
+    margin: 6% auto;
+    width: 90%;
+    max-width: 1170px;
+    position: relative;
+    gap: 10px;
+    border-radius: 5px;
+}
+.test-drive-modal-body {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.test-drive-modal-header {
+    height: 50px;
+    background-color: #2d2d2d;
+    color: #fff;
+}
+.test-drive-modal-header img {
+    padding: 16px;
+    width: 100px;
+}
+.test-drive-modal-content .swiper-button-next {
+    right:26px ;
+    top: 300px ;
+}
+.test-drive-modal-content .swiper-button-prev {
+    left: 27px;
+    top: 300px ;
+}
+
+/*.slider-test-drive-form [type=button]:hover, .slider-test-drive-form button:hover {*/
+/*    color: #ffffff !important;*/
+/*    background-color: #6D12FF !important;*/
+/*}*/
+/*.slider-test-drive-form [type=button], .slider-test-drive-form button:hover {*/
+/*    border: 1px solid #6D12FF !important;*/
+/*    color: #ffffff !important;*/
+/*    background-color: #6D12FF !important;*/
+/*}*/
+.slider-test-drive-form .form-submit {
+    background: transparent;
+}
+.slider-test-drive-form .group {
+    padding-bottom: 14px;
+}
+.fs-container .slider-test-drive-form .form-submit {
+    width: 100%;
+}
+
+.fs-container .select-time-month {
+   padding-bottom: 0px !important;
+}
+.fs-container .fs-title h5 {
+    margin-bottom: 0px !important;
+}
+
+form.test-drive-form{
+    margin-top: 1em;
+}
+.testdrive {
+    width: 500px;
+}
+small, small {
+    font-size: 0.80em;
+    color: #9a9a9a;
+}
+
+.fs-container.testdrive .group input, textarea, select {
+    padding: 8px 10px !important;
+}
+
+.fs-container.testdrive .input-error-req {
+    bottom: 0;
+}
+.fs-container.testdrive .Cu-three {
+    margin-bottom: 0 !important;
+    margin-top: -4px;
+}
+
+
+.fs-container .slider-test-drive-form  button[disabled]{
+  border: 1px solid #cccccc !important;
+  color: #666666 !important;
+}
+
+/* .fs-container .test-drive-days .available {
+    border-color: #8987e3 !important;
+} */
+
+.fs-container .slider-test-drive-form .label-days .activated {
+    color: white !important;
+}
+
+.fs-container input[type='submit'], .fs-container button {
+    margin-top: 22px !important;
+    margin-bottom: 0 !important;
+}
+
+.elementor-widget-slider-vdp-test-drive-widget .swiper-button-next:after, .elementor-widget-slider-vdp-test-drive-widget .swiper-button-prev:after {
+    font-size: 20px !important;
+}
+
+.elementor-widget-loop-galleries-widget .swiper-button-next:after, .elementor-widget-loop-galleries-widget .swiper-button-prev:after {
+    font-size: 12px !important;
+}
+
+.elementor-widget-loop-galleries-widget .swiper-button-next.button-disabled, .elementor-widget-loop-galleries-widget .button-prev.swiper-button-disabled {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+}
+
+
+.form-ask-side{
+    width: 34% !important;
+}
+
+.test-drive-days, .testdrivecontianer .test-drive-days {
+    margin-bottom: 15px;
+}
+
+a.agent-phone {
+    position: absolute;
+    right: 66px;
+    top: 10px;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.fs-title {
+    margin-bottom: 15px;
+}
+
+.agent-phone img {
+    width: 19px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+  }
+

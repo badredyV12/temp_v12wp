@@ -1,0 +1,446 @@
+
+.text-drive-popup-action{
+    
+}
+.modal-header{
+    border-bottom: none !important;
+}
+.test-drive-popup-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 20px;
+}
+.test-drive-popup-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 66px;
+    min-width: 45px !important;
+}
+.test-drive-popup-close:hover, .test-drive-popup-close:focus, .test-drive-popup-close:active{
+    background-color: #fff !important;
+}
+.back-btn:hover, .back-btn:focus, .back-btn:active{
+    background-color: #fff !important;
+}
+
+.back-btn{
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(180deg);
+    min-width: 4.5rem !important;
+
+}
+.test-drive-days,
+.testdrivecontianer .test-drive-days {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    height: 90px;
+    margin-bottom: 25px;
+}
+
+.test-drive-days .label-days,
+.testdrivecontianer .test-drive-days .label-days {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #010101;
+    color: #010101;
+    cursor: pointer !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-drive-days .label-days.disabled,
+.testdrivecontianer .test-drive-days .label-days.disabled {
+    border: 1px solid grey !important;
+    color: grey !important;
+    cursor: no-drop !important;
+}
+
+.test-drive-days .days,
+.testdrivecontianer .test-drive-days .days {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.test-drive-days .days .day-wrap-css,
+.testdrivecontianer .test-drive-days .days .day-wrap-css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test-drive-days .day-label,
+.test-drive-days .label-days,
+.testdrivecontianer .test-drive-days .day-label,
+.testdrivecontianer .test-drive-days .label-days {
+    font-size: 12px !important;
+}
+
+/* .test-drive-days .available,
+.testdrivecontianer .test-drive-days .available {
+    border-color: #1eb0fc !important;
+} */
+
+.test-drive-days .next-days,
+.test-drive-days .prev-days,
+.testdrivecontianer .test-drive-days .next-days,
+.testdrivecontianer .test-drive-days .prev-days {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.test-drive-days .btn-disabled,
+.test-drive-form .loading_form,
+.testdrivecontianer .test-drive-days .btn-disabled,
+.testdrivecontianer .test-drive-form .loading_form {
+    cursor: no-drop !important;
+}
+
+.test-drive-days .label-days.activated,
+.testdrivecontianer .test-drive-days .label-days.activated {
+    color: white ;
+}
+
+/* Pop-up styles */
+.show-popup,
+.testdrivecontianer .show-popup {
+    position: relative;
+    float: right;
+    margin: 0px !important;
+    width: 100%;
+    left: 15px;
+    top: 21px;
+}
+
+.show-popup-btn,
+.testdrivecontianer .show-popup-btn {
+    position: relative;
+    float: right;
+    right: 15px;
+    margin: 0px !important;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999 !important;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.popuptestdrive {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 0px;
+    
+}
+
+/* Media Queries */
+@media (min-width: 1281px) {
+    /* Styles for desktops */
+    .para-desc,
+    .testdrivecontianer .para-desc {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+
+    .select-time-month,
+    .testdrivecontianer .select-time-month {
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .popuptestdrive {
+        width: 70%;
+        padding: 5% 15%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Styles for laptops and desktops */
+    .para-desc,
+    .testdrivecontianer .para-desc {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .select-time-month,
+    .testdrivecontianer .select-time-month {
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .popuptestdrive {
+        width: 70%;
+        padding: 5% 15%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets and iPads (portrait) */
+    .para-desc,
+    .testdrivecontianer .para-desc {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .select-time-month,
+    .testdrivecontianer .select-time-month {
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+
+    .test-drive-days .days,
+    .testdrivecontianer .test-drive-days .days {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .popuptestdrive {  
+        width: 50%;
+        padding: 20px 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Styles for tablets and iPads (landscape) */
+    /* No additional styles needed */
+    .popuptestdrive {  
+        width: 60%;
+        padding: 20px 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Styles for low-resolution tablets and mobiles (portrait) */
+    /* No additional styles needed */
+    .popuptestdrive {  
+        width: 90%;
+        padding: 20px 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+    /* Styles for low-resolution tablets and mobiles (landscape) */
+    /* No additional styles needed */
+    .popuptestdrive {  
+        width: 90%;
+        padding: 20px 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Styles for most smartphones (portrait) */
+    .test-drive-days .label-days,
+    .testdrivecontianer .test-drive-days .label-days {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .btn-next-step,
+    .testdrivecontianer .btn-next-step {
+        font-size: 11px;
+    }
+    .popuptestdrive {  
+        width: 90%;
+        padding: 20px 20px;
+    }
+}
+
+/* Additional Styles */
+.close-btn-popup {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+.popup-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.popup-button:hover {
+    background-color: #0056b3;
+}
+
+.disable-scroll {
+    overflow: hidden;
+}
+
+/* Form Input Styles */
+.form-input+label,
+.group select+label,
+.form-input:not(:placeholder-shown)+label {
+    border: 0 !important;
+    color: #a0a0a0!important;
+    position: absolute;
+    font-size: 0.9rem!important;
+    top: 33%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 0 0.3rem;
+    margin: 0 0.5rem;
+    transition: .1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+    font-weight: 400 !important;
+    z-index: 9;
+}
+
+.form-input:not(:placeholder-shown)+label {
+    color: #000 !important;
+    top: 0px;
+    transform: translateY(-50%) scale(.9)!important;
+}
+
+.form-input:focus+label,
+.group select:focus+label {
+    color: #000 !important;
+    top: 0;
+    transform: translateY(-50%) scale(.9)!important;
+}
+
+.form-input:focus,
+.group select:focus {
+    border: 1px solid #000;
+}
+
+.form-input:not(:placeholder-shown),
+.group select:not(:placeholder-shown) {
+    border: 1px solid #000;
+}
+
+.input-error-req {
+    font-size: 10px !important;
+    color: red !important;
+}
+
+.form-control.error {
+    border: 1px solid red !important;
+}
+
+/* Tab Styles */
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    display: none;
+}
+
+.group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+/* Submit Group Styles */
+.submit-group .next:disabled,
+.testdrivecontianer .submit-group .next:disabled {
+    background-color: #F7F7F7 !important;
+    border: 1px solid #C6C6C6 !important;
+    color: #000 !important;
+}
+
+.Cu-twice,
+.testdrivecontianer .Cu-twice {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    margin-bottom: 10px !important;
+}
+
+.submit-group,
+.testdrivecontianer .submit-group {
+    text-align: center;
+}
+
+.testdrivecontianer input[type='submit'],
+.testdrivecontianer button,
+.testdrivecontianer input[type='submit'],
+.testdrivecontianer button {
+    border: none;
+    text-align: center;
+    min-width: 15.5em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 2.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.group input,
+group select,
+.testdrivecontianer .group input,
+.testdrivecontianer group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-width: 1px;
+    font-family: roboto;
+}
+
+.Cu-three,
+.testdrivecontianer .Cu-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.Cu-three .group,
+.testdrivecontianer .Cu-three .group {
+    width: 100%;
+}
+
+.rotate-180 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }

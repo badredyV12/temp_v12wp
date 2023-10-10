@@ -1,0 +1,332 @@
+#disclosure{
+    cursor: not-allowed;
+}
+
+ #credit-app-container .form-input+label,#credit-app-container .group select+label {
+    border: 0 !important;
+    color: #a0a0a0!important;
+    position: absolute;
+font-size: 0.9rem!important;
+top: 33%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 0 0.3rem;
+    margin: 0 0.5rem;
+    transition: .1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+    font-weight: 400!important;
+    z-index: 9;
+}
+
+#credit-app-container .group textarea+label {
+    border: 0 !important;
+    color: #a0a0a0!important;
+    position: absolute;
+font-size: 0.9rem!important;
+top: 0%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 0 0.3rem;
+    margin: 0 0.5rem;
+    transition: .1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+    font-weight: 400!important;
+    z-index: 9;
+}
+
+#credit-app-container .form-input:focus+label{
+    color: #000 !important;
+    top: 0px;
+    transform: translateY(-50%) scale(.9)!important;
+}
+
+#credit-app-container .form-input:focus{
+    border: 1px solid #000;
+
+}
+#credit-app-container input:not(:placeholder-shown)+label{
+     top: 0px;
+}
+#credit-app-container .form-input:not(:placeholder-shown){
+
+     border: 1px solid #000;
+}
+
+#credit-app-container .input-error-req{
+    font-size: 10px !important;
+    color: red !important;
+    position: absolute;
+    bottom: 6px;
+  }
+   #credit-app-container .form-control.error {
+    border: 1px solid red !important;
+}
+
+
+#credit-app-container .tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ #credit-app-container h1{
+    display: none;
+ }
+
+
+ #credit-app-container .group {
+    position: relative;
+     display: flex;
+    flex-direction: column;
+    padding-bottom: 20px; 
+    display: flex;
+
+  }
+
+  #credit-app-container .submit-group .next:disabled{
+    background-color: #F7F7F7 !important;
+    border: 1px solid #C6C6C6 !important;
+    color: #000 !important;
+}
+
+   #credit-app-container .Cu-twice{
+       display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+        margin-bottom: 10px !important;
+        width: 100%;
+     }
+#credit-app-container .submit-group{
+      text-align: center;
+
+  }
+
+  /* #credit-app-container input[type='submit'],#credit-app-container button{
+    border: none;
+    text-align: center ;
+    min-width: 15.5em ;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px 80px;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 2.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  } */
+
+
+  #credit-app-container  input ,#credit-app-container .group  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #ced4da !important;
+    outline: none;
+    border-width: 1px;
+    font-family: roboto; 
+  }
+
+ #credit-app-container .Cu-three
+    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+
+
+}
+
+#credit-app-container .Cu-three .group{
+    width: 100%;
+}
+
+   #credit-app-container .Cu-three{
+       display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+        margin-bottom: 10px !important;
+        width: 100%;
+     }
+     #credit-app-container .Cu-fourth {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+        margin-bottom: 10px !important;
+        width: 100%;
+    }
+#credit-app-container .grid-one-tow{
+    grid-template-columns: 32% [col-start] 66% [col-start];
+}
+
+
+#credit-app-container .credit-app-block-title{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#credit-app-container .credit-app-block-subtitle{
+     font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#credit-app-container .acceptCondition{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#credit-app-container .acceptCondition input{
+    width: 20px;
+}
+
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+   #credit-app-container .Cu-twice{
+       display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+     }
+    #credit-app-container .submit-group{
+      text-align: center;
+  }
+
+   #credit-app-container .Cu-three{
+       display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+        margin-bottom: 10px !important;
+     }
+     #credit-app-container .Cu-fourth {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+        margin-bottom: 10px !important;
+        width: 100%;
+    }
+    #credit-app-container .Cu-fourth {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    margin-bottom: 10px !important;
+    width: 100%;
+}
+#credit-app-container .credit-app-block-title{
+    font-size: 20px;
+}
+#credit-app-container .credit-app-block-subtitle{
+     font-size: 16px;
+}
+#credit-app-container .f-w-500{
+        font-size:14px;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  #credit-app-container  .Cu-twice{
+       display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+     }
+    #credit-app-container .submit-group{
+      text-align: center;
+  }
+
+  #credit-app-container .Cu-three{
+       display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+        margin-bottom: 10px !important;
+     }
+     #credit-app-container .Cu-fourth {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+        margin-bottom: 10px !important;
+        width: 100%;
+    }
+     #credit-app-container .Cu-fourth {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    margin-bottom: 10px !important;
+    width: 100%;
+}
+#credit-app-container .credit-app-block-title{
+    font-size: 20px;
+}
+#credit-app-container .credit-app-block-subtitle{
+     font-size: 16px;
+}
+#credit-app-container .f-w-500{
+        font-size:14px;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+   #credit-app-container .Cu-twice{
+       display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+     }
+    #credit-app-container .submit-group{
+      text-align: center;
+  }
+  #credit-app-container .Cu-three{
+       display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10px;
+        margin-bottom: 10px !important;
+     }
+     #credit-app-container .Cu-fourth {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+        margin-bottom: 10px !important;
+        width: 100%;
+    }
+     #credit-app-container .Cu-fourth {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    margin-bottom: 10px !important;
+    width: 100%;
+}
+
+#credit-app-container .credit-app-block-title{
+    font-size: 14px;
+}
+#credit-app-container .credit-app-block-subtitle{
+     font-size: 12px;
+}
+    #credit-app-container .f-w-500{
+        font-size:12px;
+    }
+
+}
